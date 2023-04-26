@@ -1,5 +1,11 @@
+import Routers from "./data/routes";
+
 function App() {
-  return <h1>DBCamp - WeatherApp</h1>;
+  return (
+    <>
+      <Routers />
+    </>
+  );
 }
 
 export default App;
