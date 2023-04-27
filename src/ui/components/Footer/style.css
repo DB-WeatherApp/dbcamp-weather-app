@@ -1,0 +1,16 @@
+footer {
+  height: 72px;
+  justify-content: center;
+  align-content: space-evenly;
+}
+
+.footer_text {
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.logo {
+  width: 38px;
+  height: 38px;
+}

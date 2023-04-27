@@ -1,0 +1,24 @@
+header {
+  height: 72px;
+  top: 22px;
+  justify-content: baseline;
+}
+
+.header_link {
+  color: var(--light);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 12px;
+  margin: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+
+header :first-child {
+  margin-left: 40px;
+}
+
+.header_link :active {
+  background-color: red;
+  text-decoration: underline;
+}
