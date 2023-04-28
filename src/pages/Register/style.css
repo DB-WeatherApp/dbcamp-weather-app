@@ -1,0 +1,68 @@
+.register {
+  color: var(--light);
+}
+
+.form input,
+.form select {
+  padding-left: 20px;
+  height: 57px;
+}
+
+.city {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  width: 55%;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.informations {
+  margin-bottom: 90px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 95px;
+  padding-left: 17px;
+  padding-right: 50px;
+}
+
+.inputs input {
+  width: 54px;
+}
+
+.inputs_temperatures,
+.inputs_informations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.button {
+  border: none;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 24px;
+  height: 58px;
+  justify-content: center;
+  width: 274px;
+  margin-left: 20px;
+}

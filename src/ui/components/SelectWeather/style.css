@@ -1,0 +1,33 @@
+.selectsArea {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-left: 15px;
+}
+
+.selectsArea_inputs,
+.selectsArea_selects {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectsArea_selects {
+  margin-right: 25px;
+}
+
+.inputField {
+  background-image: linear-gradient(
+    180deg,
+    var(--primary-light) 0%,
+    var(--primary-dark) 100%
+  );
+  border: none;
+  border-radius: 15px;
+  color: var(--light);
+  font-weight: 500;
+  font-size: 24px;
+}
+
+option {
+  color: var(--dark);
+}
